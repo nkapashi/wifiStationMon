@@ -12,11 +12,10 @@ This scan is completely passive and nothing is transmitted by the monitor.  It d
 
 The code uses the python SCAPY library to filter 802.11 probe requests (Dot11ProbeReq) out of all captured network traffic. It also requires a  SQLite database:
 
-```sql lite
+```
 CREATE TABLE "hosts" (
 	`hostmac`	TEXT,
 	`ssid`	TEXT,
 	`date`	TEXT NOT NULL
 );
 ```
-
