@@ -2,7 +2,7 @@
 
 ------
 
-This will listen for all nearby WIFI station (client) 802.11 probe requests and record in SQLite database  the MAC address of the client, the network for which it is probing and a timestamp.   
+This will listen for all nearby WIFI station (client) *802.11 probe requests* and record in SQLite database  the MAC address of the client, the network for which it is probing and a timestamp.   
 
 Usually the 802.11 probe requests method is used by WIFI clients to identify  all available access points (AP) that have the same SSID so they can roam. This is also known as active scanning. 
 
